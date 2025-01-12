@@ -1,9 +1,9 @@
-local gameid = game.GameId
+local placeid = game.PlaceId
 
-if gameid == 2248408710 then
+if placeid == 2248408710 then
     loadstring(readfile('Games/DestructionSim.lua'))()
-elseif gameid == 662417684 then
+elseif placeid == 662417684 then
     loadstring(readfile('Games/LuckyBlock.lua'))()
 else
-
+print("ZN")
 end
